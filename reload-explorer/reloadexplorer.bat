@@ -12,7 +12,7 @@ echo ##     RELOADING      ##
 echo ##    Please wait     ##
 echo ########################
 timeout 5
-taskrkill /f /im explorer.exe
+taskkill /f /im explorer.exe
 cls
 START /max explorer.exe
 
